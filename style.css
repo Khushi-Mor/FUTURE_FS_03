@@ -10,11 +10,12 @@ body{
 
 .hero{
     height:100vh;
-    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
-    url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600");
+
+    background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),
+     url("Images/hero4.jpg");
     background-size:cover;
     background-position:center;
-    color:white;
+    background-repeat: no-repeat;
 }
 
 .navbar-brand{
@@ -48,6 +49,8 @@ body{
 #about img:hover{
     transform:scale(1.03);
 }
+
+
 
 /* Menu Section */
 
@@ -155,12 +158,14 @@ iframe{
 }
 
 .social-icon{
-    font-size:28px;
+    color:#ffffff;
+    font-size:15px;
     text-decoration:none;
-    margin-right:15px;
+    margin-right:5px;
     transition:0.3s;
 }
 
 .social-icon:hover{
     transform:scale(1.2);
 }
+

@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -52,7 +52,7 @@
 
 <!-- Hero Section -->
 <section class="hero d-flex align-items-center text-center">
-    <div class="container">
+    <div class="container text-white text-center">
         <h1 class="display-3 fw-bold mt-5">Welcome to Delicious Bites</h1>
 
         <p class="lead mt-3">
@@ -69,11 +69,57 @@
     <div class="container">
         <div class="row align-items-center">
 
+              
+                        <!-- left side Image -->
+            <div class="col-lg-6 my-5">
+                <img src="Images/about.jpg"
+                     class="img-fluid rounded shadow"
+                     alt="Restaurant">
+            </div>
+
+            <!-- Content -->
+            <div class="col-lg-6 my-5">
+                <h2 class="fw-bold mb-4">About Delicious Bites</h2>
+
+                <p>
+                    At Delicious Bites, we believe every meal should be a memorable experience.
+                    Our chefs prepare fresh and delicious dishes using high-quality ingredients.
+                </p>
+
+                <p>
+                    Whether you're here for a family dinner, a celebration, or a quick lunch,
+                    we promise exceptional food and warm hospitality.
+                </p>
+
+                <div class="row mt-4">
+
+                    <div class="col-md-4 text-center">
+                        <h3 class="text-warning">10+</h3>
+                        <p>Years Experience</p>
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <h3 class="text-warning">50+</h3>
+                        <p>Food Items</p>
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <h3 class="text-warning">5000+</h3>
+                        <p>Happy Customers</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
             <!-- Menu Section -->
 <section id="menu" class="py-5">
     <div class="container">
 
-        <div class="text-center mb-5">
+        <div class="text-center my-5">
             <h2 class="fw-bold">Our Special Menu</h2>
             <p class="text-muted">
                 Freshly prepared with premium ingredients and lots of love.
@@ -85,7 +131,7 @@
             <!-- Pizza -->
             <div class="col-md-6 col-lg-3">
                 <div class="card menu-card h-100 shadow-sm">
-                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600"
+                    <img src="Images/pizza.jpg"
                         class="card-img-top" alt="Pizza">
 
                     <div class="card-body text-center">
@@ -106,16 +152,16 @@
             <!-- Burger -->
             <div class="col-md-6 col-lg-3">
                 <div class="card menu-card h-100 shadow-sm">
-                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600"
+                    <img src="Images/burger.jpg"
                         class="card-img-top" alt="Burger">
 
                     <div class="card-body text-center">
-                        <h5 class="card-title">Chicken Burger</h5>
+                        <h5 class="card-title">Burger combo</h5>
                         <p class="card-text">
-                            Juicy grilled chicken with fresh vegetables.
+                             juicy grilled patty with fresh cheese,tomatoes and our special sauce
                         </p>
 
-                        <h5 class="text-warning">₹249</h5>
+                        <h5 class="text-warning">₹149</h5>
 
                         <button class="btn btn-warning">
                             Order Now
@@ -124,19 +170,19 @@
                 </div>
             </div>
 
-            <!-- Pasta -->
+            <!-- noodles-->
             <div class="col-md-6 col-lg-3">
                 <div class="card menu-card h-100 shadow-sm">
-                    <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600"
-                        class="card-img-top" alt="Pasta">
+                    <img src="Images/noodles.jpg"
+                        class="card-img-top" alt="noodles">
 
                     <div class="card-body text-center">
-                        <h5 class="card-title">Italian Pasta</h5>
+                        <h5 class="card-title">Hakka Noodles </h5>
                         <p class="card-text">
-                            Creamy white sauce pasta with fresh herbs.
+                           Stir-fried noodles with fresh vegetables and flavorful Asian spices.
                         </p>
 
-                        <h5 class="text-warning">₹349</h5>
+                        <h5 class="text-warning">₹179</h5>
 
                         <button class="btn btn-warning">
                             Order Now
@@ -148,16 +194,16 @@
             <!-- Dessert -->
             <div class="col-md-6 col-lg-3">
                 <div class="card menu-card h-100 shadow-sm">
-                    <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600"
-                        class="card-img-top" alt="Dessert">
+                    <img src="Images/cofee.jpg"
+                        class="card-img-top" alt="coffee">
 
                     <div class="card-body text-center">
-                        <h5 class="card-title">Chocolate Cake</h5>
+                        <h5 class="card-title">Cold Coffee</h5>
                         <p class="card-text">
-                            Soft chocolate cake topped with fresh cream.
+                            Chilled coffee blended with milk,chocolate and topprd with whipped cream.
                         </p>
 
-                        <h5 class="text-warning">₹199</h5>
+                        <h5 class="text-warning">₹99</h5>
 
                         <button class="btn btn-warning">
                             Order Now
@@ -175,7 +221,7 @@
 <section id="gallery" class="py-5">
     <div class="container">
 
-        <div class="text-center mb-5">
+        <div class="text-center my-5">
             <h2 class="fw-bold">Our Gallery</h2>
             <p class="text-muted">
                 Take a look at our delicious food and beautiful restaurant.
@@ -185,39 +231,39 @@
         <div class="row g-4">
 
             <div class="col-md-4">
-                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=700"
+                <img src="Images/interior.jpg"
                      class="gallery-img img-fluid rounded shadow"
                      alt="Restaurant Interior">
             </div>
 
             <div class="col-md-4">
-                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=700"
+                <img src="Images/gallery4.jpg"
+                     class="gallery-img img-fluid rounded shadow"
+                     alt="Desserts">
+            </div>
+
+            <div class="col-md-4">
+                <img src="Images/gallery2.jpg"
                      class="gallery-img img-fluid rounded shadow"
                      alt="Pizza">
             </div>
 
             <div class="col-md-4">
-                <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=700"
+                <img src="Images/gallery.jpg"
+                     class="gallery-img img-fluid rounded shadow"
+                     alt="view">
+            </div>
+
+            <div class="col-md-4">
+                <img src="Images/cofee.jpg"
+                     class="gallery-img img-fluid rounded shadow"
+                     alt="Drink">
+            </div>
+
+            <div class="col-md-4">
+                <img src="Images/gallery3.jpg"
                      class="gallery-img img-fluid rounded shadow"
                      alt="Burger">
-            </div>
-
-            <div class="col-md-4">
-                <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=700"
-                     class="gallery-img img-fluid rounded shadow"
-                     alt="Pasta">
-            </div>
-
-            <div class="col-md-4">
-                <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=700"
-                     class="gallery-img img-fluid rounded shadow"
-                     alt="Restaurant">
-            </div>
-
-            <div class="col-md-4">
-                <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=700"
-                     class="gallery-img img-fluid rounded shadow"
-                     alt="Dessert">
             </div>
 
         </div>
@@ -229,7 +275,7 @@
 <section id="testimonials" class="py-5 bg-light">
     <div class="container">
 
-        <div class="text-center mb-5">
+        <div class="text-center my-5">
             <h2 class="fw-bold">What Our Customers Say</h2>
             <p class="text-muted">
                 We love serving our customers, and they love us too!
@@ -314,7 +360,7 @@
 <section id="contact" class="py-5">
     <div class="container">
 
-        <div class="text-center mb-5">
+        <div class="text-center my-5">
             <h2 class="fw-bold">Contact Us</h2>
             <p class="text-muted">
                 We'd love to hear from you. Visit us or send us a message.
@@ -324,7 +370,7 @@
         <div class="row">
 
             <!-- Contact Information -->
-            <div class="col-lg-5 mb-4">
+            <div class="col-lg-5 my-3">
                 <div class="contact-info p-4 shadow rounded">
 
                     <h4 class="mb-4">Get in Touch</h4>
@@ -348,7 +394,7 @@
             <div class="col-lg-7">
                 <form class="shadow p-4 rounded bg-white">
 
-                    <div class="mb-3">
+                    <div class="my-3">
                         <input type="text" class="form-control"
                                placeholder="Your Name">
                     </div>
@@ -393,50 +439,7 @@
     </div>
 </section>
 
-            <!-- Image -->
-            <div class="col-lg-6 mb-4">
-                <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=900"
-                     class="img-fluid rounded shadow"
-                     alt="Restaurant">
-            </div>
 
-            <!-- Content -->
-            <div class="col-lg-6">
-                <h2 class="fw-bold mb-4">About Delicious Bites</h2>
-
-                <p>
-                    At Delicious Bites, we believe every meal should be a memorable experience.
-                    Our chefs prepare fresh and delicious dishes using high-quality ingredients.
-                </p>
-
-                <p>
-                    Whether you're here for a family dinner, a celebration, or a quick lunch,
-                    we promise exceptional food and warm hospitality.
-                </p>
-
-                <div class="row mt-4">
-
-                    <div class="col-md-4 text-center">
-                        <h3 class="text-warning">10+</h3>
-                        <p>Years Experience</p>
-                    </div>
-
-                    <div class="col-md-4 text-center">
-                        <h3 class="text-warning">50+</h3>
-                        <p>Food Items</p>
-                    </div>
-
-                    <div class="col-md-4 text-center">
-                        <h3 class="text-warning">5000+</h3>
-                        <p>Happy Customers</p>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
 
 <!-- Footer -->
 <footer class="footer text-white py-5">
@@ -446,8 +449,8 @@
         <div class="row">
 
             <!-- Restaurant Info -->
-            <div class="col-lg-4 mb-4">
-                <h3>🍽️ Delicious Bites</h3>
+           <div class="col-lg-3 mb-4">
+                 <h4>🍽️ Delicious Bites</h4>
                 <p>
                     Fresh Food, Great Taste, Memorable Moments.
                     We serve delicious meals made with love and the finest ingredients.
@@ -455,10 +458,10 @@
             </div>
 
             <!-- Quick Links -->
-            <div class="col-lg-4 mb-4">
+           <div class="col-lg-3 mb-4">
                 <h4>Quick Links</h4>
 
-                <ul class="list-unstyled">
+              <ul class="list-unstyled">
 
                     <li><a href="#" class="footer-link">Home</a></li>
                     <li><a href="#about" class="footer-link">About</a></li>
@@ -469,25 +472,28 @@
                 </ul>
             </div>
 
-            <!-- Social Media -->
-            <div class="col-lg-4 mb-4">
-                <h4>Follow Us</h4>
+            <div class="col-lg-3 mb-4">
+                <h4>Opening Hours</h4>
+                <p>Monday - Friday</p>
+                <p>10:00 AM - 10:00 PM</p>
 
-                <a href="#" class="social-icon">🌐</a>
-                <a href="#" class="social-icon">📘</a>
-                <a href="#" class="social-icon">📸</a>
-                <a href="#" class="social-icon">▶️</a>
-
-                <p class="mt-3">
-                    Open Daily <br>
-                    10:00 AM – 11:00 PM
-                </p>
+                <p>Saturday - Sunday</p>
+                <p>11:00 AM - 11:30 PM</p>
+                
 
             </div>
 
-        </div>
+            <!-- Social Media -->
+            <div class="col-lg-3 mb-4">
+                <h4>Follow Us</h4>
 
-        <hr>
+                <a href="#" class="social-icon">🌐 Browser</a> <br>
+                <a href="#" class="social-icon">📘 Facebook</a> <br>
+                <a href="#" class="social-icon">📸 Instagram</a> <br>
+                <a href="#" class="social-icon">▶️ You Tube</a> <br>
+            </div>
+
+        </div>
 
         <div class="text-center">
             <p class="mb-0">
